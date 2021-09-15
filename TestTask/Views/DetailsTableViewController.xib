@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailsTableViewController" customModule="TestTask" customModuleProvider="target">
+            <connections>
+                <outlet property="city" destination="0wh-UE-Kvt" id="LiV-Gm-DPQ"/>
+                <outlet property="cityName" destination="qv6-ip-uiB" id="XnM-xd-Jpi"/>
+                <outlet property="usernameKey" destination="dBr-AF-NJH" id="Mqk-zW-ELT"/>
+                <outlet property="usernameValue" destination="u33-50-kWf" id="Isz-Cj-A23"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBr-AF-NJH">
+                    <rect key="frame" x="20" y="102" width="78.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="usernameValue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u33-50-kWf">
+                    <rect key="frame" x="569" y="102" width="116.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wh-UE-Kvt">
+                    <rect key="frame" x="20" y="181" width="30.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cityValue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qv6-ip-uiB">
+                    <rect key="frame" x="569" y="180" width="69" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0wh-UE-Kvt" firstAttribute="top" secondItem="dBr-AF-NJH" secondAttribute="bottom" constant="58" id="0lJ-dS-wUD"/>
+                <constraint firstItem="0wh-UE-Kvt" firstAttribute="leading" secondItem="dBr-AF-NJH" secondAttribute="leading" id="Q4A-2h-9ek"/>
+                <constraint firstItem="u33-50-kWf" firstAttribute="leading" secondItem="qv6-ip-uiB" secondAttribute="leading" id="Q9v-dY-rDk"/>
+                <constraint firstItem="u33-50-kWf" firstAttribute="baseline" secondItem="dBr-AF-NJH" secondAttribute="baseline" id="Zmk-e8-kQX"/>
+                <constraint firstItem="dBr-AF-NJH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="102" id="gw7-jg-fjI"/>
+                <constraint firstItem="qv6-ip-uiB" firstAttribute="top" secondItem="u33-50-kWf" secondAttribute="bottom" constant="57" id="qny-zU-4vM"/>
+                <constraint firstItem="dBr-AF-NJH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="w7h-dv-FPt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="u33-50-kWf" secondAttribute="trailing" constant="124.5" id="zvk-8v-ePs"/>
+            </constraints>
+            <point key="canvasLocation" x="107" y="80"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
