@@ -70,12 +70,12 @@
 		568EEF0126F24F84005CFE02 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				568FBED326F334850074B16B /* Storyboards */,
 				568EEF1E26F277B0005CFE02 /* Views */,
 				568EEF1B26F251B5005CFE02 /* ViewModel */,
 				568EEF1826F250EA005CFE02 /* Model */,
 				568EEF0226F24F84005CFE02 /* AppDelegate.swift */,
 				568EEF0426F24F84005CFE02 /* SceneDelegate.swift */,
-				568EEF0626F24F84005CFE02 /* ViewController.swift */,
 				568EEF0B26F24F86005CFE02 /* Assets.xcassets */,
 				568EEF0D26F24F86005CFE02 /* LaunchScreen.storyboard */,
 				568EEF1026F24F86005CFE02 /* Info.plist */,
@@ -103,10 +103,8 @@
 		568EEF1E26F277B0005CFE02 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				568FBED426F3349C0074B16B /* Controllers */,
 				568EEF1F26F277C9005CFE02 /* TableViewCell */,
-				568EEF0826F24F84005CFE02 /* Main.storyboard */,
-				568EEF2426F284F5005CFE02 /* DetailsTableViewController.swift */,
-				568EEF2526F284F5005CFE02 /* DetailsTableViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +116,24 @@
 				568EEF2126F277FB005CFE02 /* TableViewCell.xib */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		568FBED326F334850074B16B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				568EEF0826F24F84005CFE02 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		568FBED426F3349C0074B16B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				568EEF2426F284F5005CFE02 /* DetailsTableViewController.swift */,
+				568EEF2526F284F5005CFE02 /* DetailsTableViewController.xib */,
+				568EEF0626F24F84005CFE02 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
